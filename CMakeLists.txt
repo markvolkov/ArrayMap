@@ -3,5 +3,5 @@ project(HashMap)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Item.h ArrayList.h Map.h HashMap.h)
+set(SOURCE_FILES main.cpp Item.h ArrayList.h Map.h ArrayMap.h)
 add_executable(HashMap ${SOURCE_FILES})

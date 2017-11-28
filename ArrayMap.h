@@ -10,18 +10,16 @@
 #include "Item.h"
 
 template <class K, class V>
-class HashMap : public Map<K, V> {
+class ArrayMap : public Map<K, V> {
 
 private:
     ArrayList<Item<K, V>*>* items;
 public:
-    HashMap();
+    ArrayMap();
     V put(K key, V value);
     V get(K key);
     ArrayList<Item<K,V>*>* itemSet();
-
-
 };
 
-#include "HashMap.inl"
+#include "ArrayMap.inl"
 #endif //HASHMAP_HASHMAP_H

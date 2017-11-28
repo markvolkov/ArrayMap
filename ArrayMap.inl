@@ -1,7 +1,7 @@
 //
 // Created by Mark Volkov on 11/15/17.
 //
-#include "HashMap.h"
+#include "ArrayMap.h"
 #include "Item.h"
 
 template <class K, class V>
@@ -16,7 +16,6 @@ V HashMap<K, V>::put(K key, V value) {
     return value;
 }
 
-//What is going on here...
 template <class K, class V>
 V HashMap<K, V>::get(K key) {
     for (int i = 0; i < this->items->itemCount(); i++) {

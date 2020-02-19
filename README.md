@@ -1,2 +1,2 @@
-# HashMap
-My hashmap implementation
+# ArrayMap
+My ArrayMap implementation
